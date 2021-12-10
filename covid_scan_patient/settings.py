@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'covid_scan_patient.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'capstone_db',
-        'USER': 'capstone_server',
-        'PASSWORD': 'server1234',
-        'HOST': '127.0.0.1',
+        'NAME': 'db_name',
+        'USER': 'db_username',
+        'PASSWORD': 'password',
+        'HOST': 'Host Address',
         'PORT': 5432,
     }
 }
